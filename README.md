@@ -1,12 +1,12 @@
 # SHCS
 Smart Home Control System
 
-# Making Flask as an cron job
-# https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+Making Flask as an cron job
+https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
 
-# remove apache if you don't need it
-pi@raspi:~$ sudo apt-get remove apache2
-pi@raspi:~$ sudo apt autoremove
+remove apache if you don't need it
+pi@raspi:\~$ sudo apt-get remove apache2
+pi@raspi:\~$ sudo apt autoremove
 
 sudo nano /etc/rc.local
 
