@@ -14,7 +14,7 @@ pi@raspi:\~$ sudo apt autoremove`
 
 sudo nano /etc/rc.local
 
-add line befor end command ~'exit 0'~:
+add line befor end command *'exit 0'*:
 
 `python3 /home/pi/webapp/app.py &`
 
