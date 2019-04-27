@@ -7,8 +7,8 @@ Smart Home Control System
 [link](https://www.raspberrypi.org/documentation/linux/usage/rc-local.md raspberry docu)
 
 remove apache if you don't need it
-pi@raspi:\~$ sudo apt-get remove apache2
-pi@raspi:\~$ sudo apt autoremove
+`pi@raspi:\~$ sudo apt-get remove apache2
+pi@raspi:\~$ sudo apt autoremove`
 
 sudo nano /etc/rc.local
 
