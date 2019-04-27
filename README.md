@@ -1,6 +1,11 @@
 # SHCS
 Smart Home Control System
 
+## Hardware description
+...Raspberry pi 3 b+
+...Elecrow 7 inch, touch screen
+
+
 ==============================
 ## Making Flask as an cron job
 
