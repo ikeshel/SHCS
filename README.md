@@ -18,3 +18,22 @@ add line befor end command *'exit 0'*:
 
 `python3 /home/pi/webapp/app.py &`
 
+========
+## Running chrome in kiosk mode
+
+create directory:
+
+ pi@raspi:\~$ mkdir .config/lxsession/LXDE-pi/
+
+write autostart file:
+
+vim autostart
+
+add line:
+`chromium-browser --kiosk http://localhost:5000/`
+
+deactivate maus pointer. add line in *.bash_profile*
+
+`[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor`
+
+and just reboot raspi ;)
