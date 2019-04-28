@@ -35,7 +35,7 @@ write autostart file:
 vim autostart
 
 add line:
-`chromium-browser --kiosk http://localhost:5000/`
+`chromium-browser --incognito --noerrdialogs --kiosk http://localhost:5000/`
 
 deactivate maus pointer. add line in *.bash_profile*
 
