@@ -5,6 +5,8 @@ Smart Home Control System
 ...Raspberry pi 3 b+
 ...Elecrow 7 inch, touch screen
 
+## Installing LIRC
+http://www.raspberrypiwiki.com/index.php/Raspberry_Pi_IR_Control_Expansion_Board
 
 ==============================
 ## Making Flask as an cron job
