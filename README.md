@@ -8,6 +8,9 @@ Smart Home Control System
 ## Installing LIRC
 http://www.raspberrypiwiki.com/index.php/Raspberry_Pi_IR_Control_Expansion_Board
 
+ sudo apt install lirc
+
+
 ==============================
 ## Making Flask as an cron job
 
