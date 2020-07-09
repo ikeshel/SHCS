@@ -12,8 +12,8 @@ http://www.raspberrypiwiki.com/index.php/Raspberry_Pi_IR_Control_Expansion_Board
 
 add in /boot/config.txt lines
 
- dtoverlay=gpio-ir,gpio_pin=18       #(without: in)
- dtoverlay=gpio-ir-tx,gpio_pin=17    #(without: out)
+`dtoverlay=gpio-ir,gpio_pin=18       #(without: in)
+ dtoverlay=gpio-ir-tx,gpio_pin=17    #(without: out)`
 
 
 ==============================
